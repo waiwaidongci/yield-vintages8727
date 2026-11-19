@@ -3,7 +3,7 @@ from src.config.database import Base,engine,Session
 from src.config.settings import CONFIG
 from src.models.identity import User
 from src.models.source import Source,Policy,Period
-from src.models import run
+from src.models import run,delta
 from src.utils.security import password_hash
 from src.services.validation import validate_source
 
